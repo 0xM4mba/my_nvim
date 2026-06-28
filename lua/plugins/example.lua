@@ -1,0 +1,11 @@
+-- This file is intentionally left empty.
+-- It was the LazyVim example spec and contained conflicting configurations:
+--   - Gruvbox colorscheme (conflicts with catppuccin in themes.lua)
+--   - Deprecated jose-elias-alvarez/typescript.nvim (archived, use vtsls instead)
+--   - Deprecated tsserver LSP name (renamed to ts_ls)
+--   - trouble.nvim disabled then immediately re-enabled in same file
+--   - mini-starter imported (conflicts with snacks dashboard)
+--   - Duplicate lang.json import
+--   - Duplicate mason ensure_installed (conflicts with lang.lua)
+-- All intentional customizations have been moved to the appropriate plugin files.
+return {}
